@@ -44,7 +44,7 @@ git clone https://github.com/tizianoMaini/GGBuzzer
 composer self-update
 composer global require "fxp/composer-asset-plugin:~1.1.1"
 cd ggbuzzer
-composer install
+composer update
 ~~~
 
 Now you should be able to access the application through the following URL:
