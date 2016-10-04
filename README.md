@@ -44,15 +44,20 @@ git clone https://github.com/tizianoMaini/GGBuzzer
 composer self-update
 composer global require "fxp/composer-asset-plugin:~1.1.1"
 cd ggbuzzer
-composer install
+composer update
 ~~~
 
-Now you should be able to access the application through the following URL:
+Now you should be able to access the application through the following URL to add a team:
 
 ~~~
-http://localhost/GGbuzzer/web/
+http://localhost/GGbuzzer/web/index.php/squadra/create
 ~~~
 
+Now you should be able to access the application through the following URL to buzz:
+
+~~~
+http://localhost/GGbuzzer/web/index.php/prenotazioni/buzz?id=1
+~~~
 
 CONFIGURATION
 -------------
